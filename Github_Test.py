@@ -24,5 +24,7 @@ title = driver.title
 
 print(f"Title of page is : {title}")
 
+assert title == "Interact with Input fields"
+
 driver.quit()
 
